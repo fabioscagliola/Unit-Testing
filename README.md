@@ -17,7 +17,7 @@ sudo apt-get update
 sudo apt-get install git
 git config --global user.email "john.smith@example.com"
 git config --global user.name "John Smith"
-git clone https://gitlab.com/com.fabioscagliola.training/unit-testing.git /some/folder
+git clone https://github.com/fabioscagliola/Unit-Testing.git /some/folder
 ```
 
 Install the [.NET Core SDK](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910)
@@ -46,7 +46,7 @@ Publisher: Microsoft
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
 ```
 
-Click **File** ant then **Open Folder...**
+Click **File** and then **Open Folder...**
 
 Select the folder where you cloned the repository
 
@@ -81,7 +81,7 @@ demonstrates how to test for an exception that may now be thrown by the
 
 ## Unit testing example 4 
 
-All the previous files provides examples of *value-based testing* i.e. checking 
+All the previous files provide examples of *value-based testing* i.e. checking 
 the value returned by a method; the "UnitTesting04.cs" file provides an example 
 of *state-based testing* i.e. checking for noticeable behavior changes 
 
