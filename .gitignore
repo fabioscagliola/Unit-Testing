@@ -1,0 +1,13 @@
+*.deb
+*.suo
+*.user
+.vs/
+.vscode/
+bin/
+build/
+dist/
+nbproject/
+obj/
+packages/
+TestResults/
+
