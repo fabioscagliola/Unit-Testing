@@ -8,7 +8,7 @@ All the examples are written in C# using [NUnit](https://nunit.org)
 
 # Setup
 
-Please take the following steps in order to run the sample code on Ubuntu 19.10
+Please take the following steps in order to run the sample code on Ubuntu 22.04
 
 Install [Git](https://git-scm.com) and clone this repository
 
@@ -20,15 +20,16 @@ git config --global user.name "John Smith"
 git clone https://github.com/fabioscagliola/Unit-Testing.git /some/folder
 ```
 
-Install the [.NET Core SDK](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910)
+Install the [.NET SDK](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu)
 
 ```bash
-wget https://packages.microsoft.com/config/ubuntu/19.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
 sudo apt-get update
-sudo apt-get install apt-transport-https
+sudo apt-get install -y apt-transport-https
 sudo apt-get update
-sudo apt-get install dotnet-sdk-3.1
+sudo apt-get install -y dotnet-sdk-6.0
 ```
 
 Download [Visual Studio Code](https://code.visualstudio.com) and install it
@@ -41,7 +42,7 @@ Install the following extension
 Name: C#
 Id: ms-dotnettools.csharp
 Description: C# for Visual Studio Code (powered by OmniSharp).
-Version: 1.21.17
+Version: 1.24.4
 Publisher: Microsoft
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
 ```
