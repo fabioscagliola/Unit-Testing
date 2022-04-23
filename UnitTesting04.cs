@@ -2,7 +2,7 @@
 
 ## Unit testing example 4 
 
-All the previous files provides examples of *value-based testing* i.e. checking 
+All the previous files provide examples of *value-based testing* i.e. checking 
 the value returned by a method; the "UnitTesting04.cs" file provides an example 
 of *state-based testing* i.e. checking for noticeable behavior changes 
 
