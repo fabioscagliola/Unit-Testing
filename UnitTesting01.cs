@@ -1,12 +1,3 @@
-/*
-
-## Unit testing example 1 
-
-The "UnitTesting01.cs" file includes two unit tests that verify the Boolean 
-values returned by the **IsRedBloodCell** method of the **OpticalSensor** class 
-
-*/
-
 using NUnit.Framework;
 
 namespace UnitTesting01

@@ -1,11 +1,3 @@
-/*
-
-## Unit testing example 10 
-
-In this example the the mock is injected using a property 
-
-*/
-
 using NUnit.Framework;
 using System;
 

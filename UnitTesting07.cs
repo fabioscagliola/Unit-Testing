@@ -1,14 +1,3 @@
-/*
-
-## Unit testing example 7 
-
-In the "UnitTesting07.cs" file, the **Open** method of the **ClampController** 
-class depends on some piece of hardware; the dependency is now simulated by 
-throwing an exception; in such a scenario, unless we somehow get rid of the 
-dependency, the unit test can only verify that the exception is thrown 
-
-*/
-
 using NUnit.Framework;
 using System;
 

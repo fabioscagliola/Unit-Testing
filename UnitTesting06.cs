@@ -1,17 +1,3 @@
-/*
-
-## Unit testing example 6 
-
-In the "UnitTesting06.cs" file, the **IPressController** interface is extracted 
-from the **PressController** class, and two stubs are introduced: the 
-**PressControllerStub** class and the **PressControllerStubNotGoingHome** class, 
-both implementing the **IPressController** interface; with minor adjustments to 
-the **Extraction** class and to the unit tests, the code is now covered: we got 
-rid of the dependency using the stubs; please note that we never make assertions 
-against the stubs 
-
-*/
-
 using NUnit.Framework;
 using System;
 using System.Threading.Tasks;

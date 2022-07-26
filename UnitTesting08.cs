@@ -1,18 +1,3 @@
-/*
-
-## Unit testing example 8 
-
-In the "UnitTesting08.cs" file, the **IClampController** interface is extracted 
-from the **ClampController** class, and the **ClampControllerMock** class is 
-introduced as a mock, implementing the **IClampController** interface; with 
-minor adjustments to the **Extraction** class and to the unit test, the code is 
-now covered: we got rid of the dependency using the mock; please note that we do 
-make assertions against the mock 
-
-In this example the the mock is injected using a constructor 
-
-*/
-
 using NUnit.Framework;
 using System;
 

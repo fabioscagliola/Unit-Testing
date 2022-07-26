@@ -1,13 +1,3 @@
-/*
-
-## Unit testing example 3 
-
-The "UnitTesting03.cs" file, in addition to what is already in example 2, 
-demonstrates how to test for an exception that may now be thrown by the 
-**IsRedBloodCell** method of the **OpticalSensor** class 
-
-*/
-
 using NUnit.Framework;
 using System;
 
