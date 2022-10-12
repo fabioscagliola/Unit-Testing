@@ -25,13 +25,8 @@ git clone https://github.com/fabioscagliola/Unit-Testing.git /some/folder
 Install the [.NET SDK](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu)
 
 ```bash
-wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-rm packages-microsoft-prod.deb
 sudo apt-get update
-sudo apt-get install -y apt-transport-https
-sudo apt-get update
-sudo apt-get install -y dotnet-sdk-6.0
+sudo apt-get install -y dotnet6
 ```
 
 Download [Visual Studio Code](https://code.visualstudio.com) and install it
