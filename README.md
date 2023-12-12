@@ -2,7 +2,7 @@
 
 Welcome to my unit testing training project!
 
-This project contains the sample code of my unit testing training, which I recently summarized in an article I published [here]([https://blog.fabioscagliola.com/an-introduction-to-unit-testing](https://software-engineering-corner.hashnode.dev/an-introduction-to-unit-testing))
+This project contains the sample code of my unit testing training, which I recently summarized in an article I published [here](https://software-engineering-corner.hashnode.dev/an-introduction-to-unit-testing)
 
 All the examples are written in C# using [NUnit](https://nunit.org)
 
